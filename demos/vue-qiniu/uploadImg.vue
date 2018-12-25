@@ -24,7 +24,7 @@
           v-if="uploadList.length < 3"
           @click="triggerUpload"
           class="picImg"
-          src="../../assets/img/add_pic.png"
+          src="../../assets/Images/add_pic.png"
           alt
         >
       </div>
@@ -47,7 +47,11 @@ export default {
      */
     triggerUpload() {
       document.getElementById("upload").click();
-      Http.post("/qiniu/getToken", {})
+      axios
+        .post({
+          url: "/qiniu/getToken",
+          data: {}
+        })
         .then(res => {
           this.uploadToken = res.data.token;
         })
@@ -55,8 +59,7 @@ export default {
     },
     /**
      * @description:上传图片
-     * @param {type}
-     * @return:
+     * @param {url,data}
      */
     uploadImg(e) {
       let file = document.getElementById("upload").files[0];
@@ -68,12 +71,11 @@ export default {
       data.append("file", file);
       data.append("key", key);
       data.append("token", token);
-      const instance = axios.create();
-      instance({
-        method: "POST",
-        url: url,
-        data: data
-      })
+      axios
+        .post({
+          url: url,
+          data: data
+        })
         .then(res => {
           document.getElementById("upload").value = "";
           let uploadUrl = "https://" + "cdn.*******.cn/" + res.data.key;
@@ -91,5 +93,5 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
 </style>
