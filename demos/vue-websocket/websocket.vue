@@ -26,6 +26,12 @@ export default {
         _this.ws.send("我收到消息了");
       };
     }
+  },
+  beforeDestroy() {
+    this.ws.send("我要断开连接了");
+  },
+  destroyed() {
+    this.ws.onclose = function(evt) {};
   }
 };
 </script>
