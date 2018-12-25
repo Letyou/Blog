@@ -18,7 +18,7 @@
           ref="file"
           type="file"
           id="upload"
-          accept="image/jpeg, image/png"
+          accept="image/*"
         >
         <img
           v-if="uploadList.length < 3"
