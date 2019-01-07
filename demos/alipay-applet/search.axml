@@ -1,0 +1,6 @@
+ <view class='search'>
+    <input enableNative="{{false}}" />
+    <view onTap='searchSchool'>
+      <icon type='search' size='18' />
+    </view>
+  </view>

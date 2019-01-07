@@ -1,0 +1,27 @@
+/* 搜索输入框 */
+
+.search {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  background: rgb(255, 255, 255);
+}
+.search input {
+  margin: 0.4rem 0px;
+  font-size: 0.28rem;
+  width: 55%;
+  padding-left: 0.7rem;
+  background: rgb(232, 232, 232);
+  z-index: 1000;
+}
+
+.search>view {
+  position: fixed;
+  left: 70px;
+  z-index: 1000;
+}
