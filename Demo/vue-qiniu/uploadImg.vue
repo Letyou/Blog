@@ -7,7 +7,7 @@
           <img
             @click="deleteImg(index)"
             class="delPic"
-            src="../../assets/Images/delete_pic.png"
+            src="./images/delete_pic.png"
             alt
           >
         </div>
@@ -24,7 +24,7 @@
           v-if="uploadList.length < 3"
           @click="triggerUpload"
           class="picImg"
-          src="../../assets/Images/add_pic.png"
+          src="./images/add_pic.png"
           alt
         >
       </div>
