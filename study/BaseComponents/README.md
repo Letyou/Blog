@@ -1,3 +1,13 @@
+# 自己的组件库
+
+- [确认框](https://github.com/Letyou/Blog/blob/master/study/BaseComponents/confirm/confirm.vue)
+
+-[加载提示](https://github.com/Letyou/Blog/blob/master/study/BaseComponents/loading/loading.vue)
+
+-[步进器](https://github.com/Letyou/Blog/blob/master/study/BaseComponents/stepper/stepper.vue)
+
+
+
 ## 模块化和组件化的理解
 
 - 现代开发中，总会听到，组件化，模块化开发，到底什么是模块化和组件化开发，谈谈我自己对模块化和组件化的理解吧。
