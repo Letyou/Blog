@@ -15,4 +15,4 @@
 
 ## 效果展示
 
-<img src="https://github.com/Letyou/Blog/blob/master/Components/miniapp-bubble/images/1.gif" width="365" height="619">
+<img src="https://github.com/Letyou/Blog/blob/master/Components/miniapp-bubble/images/1.gif" width="400" height="400">
