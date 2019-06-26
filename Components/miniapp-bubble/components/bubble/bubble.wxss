@@ -1,0 +1,33 @@
+.bubble-wrap {
+  position: fixed;
+  left: 22rpx;
+  top: 185rpx;
+  width: 100%;
+  z-index: 100;
+  overflow: hidden;
+  opacity: 1;
+}
+
+.bubble-content {
+  height: 57rpx;
+  display: inline-block;
+  padding-left: 20rpx;
+  font-size: 24rpx;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 57rpx;
+}
+
+.bubble-content > view {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 12rpx;
+}
+
+.nickName {
+  margin-right: 6rpx;
+}
+
+.desc {
+  margin-right: 12rpx;
+}

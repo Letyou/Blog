@@ -1,0 +1,6 @@
+<view wx:if="{{showBubble && currentObj}}" animation="{{animationData}}" class="bubble-wrap" style="{{opacity}}">
+  <view class="bubble-content">
+    <view class="nickName">{{currentObj.name}}</view>
+    <view class="desc">{{currentObj.desc}}</view>
+  </view>
+</view>

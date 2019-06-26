@@ -1,0 +1,3 @@
+<view class="index-wrap">
+  <bubble bubbleList="{{bubbleList}}"></bubble>
+</view>
