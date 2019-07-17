@@ -1,38 +1,16 @@
 # 赤霄的博客
 
-## 文件目录
+> 📝 编程的点点滴滴
 
-| 文件名     | 存放内容  |
-| ---------- | --------- |
-| Demo       | demo 实例 |
-| Study      | 学习记录  |
-| Components | 组件库    |
+## 结构目录
 
-## 列表
+```js
+|-- Components                 // 组件库
+|-- Demo                      //  用例
+|-- ToolLibrary              //   公共方法库
+|-- ...
 
-### 1.支付宝小程序定位解决方案
-
-介绍：解决支付宝小程序在 ios 环境下，fixed 定位会在触发 input 弹出软键盘以后导致 Fixed 定位失效的解决方法
-
-地址：[https://github.com/Letyou/Blog/tree/master/Demo/alipay-applet](https://github.com/Letyou/Blog/tree/master/Demo/alipay-applet)
-
-### 2.Vue 对接七牛云上传图片示例
-
-介绍：使用 Vue-cli 环境下，对接七牛云的示例
-
-地址：[https://github.com/Letyou/Blog/tree/master/Demo/vue-qiniu](https://github.com/Letyou/Blog/tree/master/Demo/vue-qiniu)
-
-### 3.Vue 获取微信公众平台授权码示例
-
-介绍：使用 Vue-cli 环境下，获取微信公众平台授权码
-
-地址：[https://github.com/Letyou/Blog/tree/master/Demo/vue-getWeChatCode](https://github.com/Letyou/Blog/tree/master/Demo/vue-getWeChatCode)
-
-### 4.Vue 对接 Websocket 方法示例
-
-介绍：使用 Vue-cli 对接原生 Websocket 方法示例
-
-地址：[https://github.com/Letyou/Blog/tree/master/Demo/vue-websocket](https://github.com/Letyou/Blog/tree/master/Demo/vue-websocket)
+```
 
 ## 勘误及提问
 
