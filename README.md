@@ -6,8 +6,8 @@
 
 ```js
 |-- Components                 // 组件库
-|-- Demo                      //  用例
-|-- ToolLibrary              //   公共方法库
+|-- Demo                      // 用例
+|-- ToolLibrary              // 公共方法库
 |-- ...
 
 ```
