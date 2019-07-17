@@ -4,9 +4,9 @@
 
 - [确认框](https://github.com/Letyou/Blog/blob/master/Components/confirm/confirm.vue)
 
--[加载提示](https://github.com/Letyou/Blog/blob/master/Components/loading/loading.vue)
+- [加载提示](https://github.com/Letyou/Blog/blob/master/Components/loading/loading.vue)
 
--[步进器](https://github.com/Letyou/Blog/blob/master/Components/stepper/stepper.vue)
+- [步进器](https://github.com/Letyou/Blog/blob/master/Components/stepper/stepper.vue)
 
 ## 勘误及提问
 
