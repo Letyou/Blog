@@ -5,6 +5,7 @@
 ## 结构目录
 
 ```js
+|-- Article                          // 踩坑记录
 |-- Components                      // 组件库
 |-- Demo                            // 实例
 |-- ToolLibrary                     // 工具库
