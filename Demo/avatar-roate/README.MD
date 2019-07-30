@@ -4,7 +4,7 @@
 
 ## 预览地址
 
-<video src="./1.ogg"></video>
+<audio src="./1.ogg"></audio>
 
 ## 勘误及提问
 
